@@ -13,6 +13,8 @@ insert into Pedido (DataPedido, NomeCliente) values
 (NOW(), 'CLIENTE2'),
 (NOW(), 'CLIENTE3');
 
+![FT1](https://github.com/RodrigoMaMoraes/BD_Trigger/blob/main/TRIGGER/R1TRIIGER01.PNG)
+
 ## ETAPA 2
 
 DELIMITER $
@@ -29,6 +31,8 @@ DELIMITER ;
 insert into Pedido (NomeCliente) values ('Maria');
 
 select * FROM PEDIDO; 
+
+![FT2](https://github.com/RodrigoMaMoraes/BD_Trigger/blob/main/TRIGGER/R1TRIGGER.PNG)
 
 ## PARTE 2
 
