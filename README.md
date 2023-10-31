@@ -66,6 +66,8 @@ insert into Filmes (titulo, minutos) values ('A lista', 120);
 
 SELECT * FROM FILMES
 
+![FT3](https://github.com/RodrigoMaMoraes/BD_Trigger/blob/main/TRIGGER/R2TRIGGERFILME.PNG)
+
 delimiter $ 
 create trigger chk_minutos before insert on Filmes
 for each row 
@@ -100,3 +102,5 @@ delete from Filmes where id = 2;
 delete from Filmes where id = 4;
 
 select * from log_deletion;
+
+![FT4](https://github.com/RodrigoMaMoraes/BD_Trigger/blob/main/TRIGGER/R4FILMES.PNG)
