@@ -36,7 +36,7 @@ select * FROM PEDIDO;
 
 ## PARTE 2
 
-## ETAPA 3
+## ETAPA 1
 
 create table Filmes(
 id int  primary key auto_increment,
